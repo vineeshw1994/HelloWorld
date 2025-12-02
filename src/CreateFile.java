@@ -4,7 +4,7 @@ import java.io.IOException; // Import IOException to handle errors
 public class CreateFile {
     public static void main(String[] args) {
         try {
-            File myObj = new File("filename.txt"); // Create File object
+            File myObj = new File("filename.json"); // Create File object
             if (myObj.createNewFile()) {           // Try to create the file
                 System.out.println("File created: " + myObj.getName());
             } else {
